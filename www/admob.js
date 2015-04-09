@@ -1,7 +1,7 @@
 /*
  admob.js
- Copyright 2014 AppFeel. All rights reserved.
- http://www.appfeel.com
+ Copyright 2014 jomendezdev. All rights reserved.
+ http://www.jomendezdev.com
  
  AdMobAds Cordova Plugin (com.admob.google)
  
@@ -27,15 +27,15 @@
 var admob = {};
 
 /**
- * This enum represents appfeel-cordova-admob plugin events
+ * This enum represents jomendezdev-cordova-admob plugin events
  */
 admob.events = {
-  onAdLoaded: "appfeel.cordova.admob.onAdLoaded",
-  onAdFailedToLoad: "appfeel.cordova.admob.onAdFailedToLoad",
-  onAdOpened: "appfeel.cordova.admob.onAdOpened",
-  onAdLeftApplication: "appfeel.cordova.admob.onAdLeftApplication",
-  onAdClosed: "appfeel.cordova.admob.onAdClosed",
-  onInAppPurchaseRequested: "appfeel.cordova.admob.onInAppPurchaseRequested",
+  onAdLoaded: "jomendezdev.cordova.admob.onAdLoaded",
+  onAdFailedToLoad: "jomendezdev.cordova.admob.onAdFailedToLoad",
+  onAdOpened: "jomendezdev.cordova.admob.onAdOpened",
+  onAdLeftApplication: "jomendezdev.cordova.admob.onAdLeftApplication",
+  onAdClosed: "jomendezdev.cordova.admob.onAdClosed",
+  onInAppPurchaseRequested: "jomendezdev.cordova.admob.onInAppPurchaseRequested",
 };
 
 /**
@@ -78,7 +78,7 @@ admob.options = {
 };
 
 /**
- * Initialize appfeel-cordova-admob plugin with options:
+ * Initialize jomendezdev-cordova-admob plugin with options:
  * @param {!Object}    options         AdMob options (use admob.options as template)
  * @param {function()} successCallback Callback on success
  * @param {function()} failureCallback Callback on fail

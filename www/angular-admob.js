@@ -1,7 +1,7 @@
 /*
  admobAngular.js
- Copyright 2014 AppFeel. All rights reserved.
- http://www.appfeel.com
+ Copyright 2014 jomendezdev. All rights reserved.
+ http://www.jomendezdev.com
  
  AdMobAds Cordova Plugin (com.admob.google)
  

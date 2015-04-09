@@ -5,11 +5,11 @@
   <description>Google AdMob Ads plugin for Cordova, Phonegap, Ionic/Angular and Intel XDK. Monetize your app with one javascript line. Android SDK v7.0, iOS SDK v7.0.0. With support for tappx and auto-detect internet connection.</description>
 
   <name>AdMob Google Ads + Tappx</name>
-  <author email="info@appfeel.com" href="https://github.com/appfeel/admob-google-cordova">AppFeel</author>
+  <author email="info@jomendezdev.com" href="https://github.com/jomendezdev/admob-google-cordova">jomendezdev</author>
   <license>MIT</license>
-  <keywords>ad,ads,admob,google,advertising,advertisment,publicity,earn,win,play,services,iad,flurry,monetization,money,appfeel,tappx</keywords>
-  <repo>https://github.com/appfeel/admob-google-cordova.git</repo>
-  <issue>https://github.com/appfeel/admob-google-cordova/issues</issue>
+  <keywords>ad,ads,admob,google,advertising,advertisment,publicity,earn,win,play,services,iad,flurry,monetization,money,jomendezdev,tappx</keywords>
+  <repo>https://github.com/jomendezdev/admob-google-cordova.git</repo>
+  <issue>https://github.com/jomendezdev/admob-google-cordova/issues</issue>
 
   <engines>
     <engine name="cordova" version=">=3.0.0" />
@@ -28,7 +28,7 @@
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="AdMobAds">
-        <param name="android-package" value="com.appfeel.cordova.admob.AdMobAds" />
+        <param name="android-package" value="com.jomendezdev.cordova.admob.AdMobAds" />
       </feature>
     </config-file>
 
@@ -42,12 +42,12 @@
     </config-file>
     
 
-    <dependency id="android.support.v4" url="https://github.com/appfeel/cordova-plugin-android-support-v4" />
+    <dependency id="android.support.v4" url="https://github.com/jomendezdev/cordova-plugin-android-support-v4" />
     <dependency id="com.google.play.services" />
 
-    <source-file src="src/android/AdMobAds.java" target-dir="src/com/appfeel/cordova/admob" />
-    <source-file src="src/android/AdMobAdsAdListener.java" target-dir="src/com/appfeel/cordova/admob" />
-    <source-file src="src/android/AdMobAdsAppPurchaseListener.java" target-dir="src/com/appfeel/cordova/admob" />
+    <source-file src="src/android/AdMobAds.java" target-dir="src/com/jomendezdev/cordova/admob" />
+    <source-file src="src/android/AdMobAdsAdListener.java" target-dir="src/com/jomendezdev/cordova/admob" />
+    <source-file src="src/android/AdMobAdsAppPurchaseListener.java" target-dir="src/com/jomendezdev/cordova/admob" />
     <source-file src="src/android/res/xml/admob.xml" target-dir="res/xml" />
   </platform>
 
@@ -65,7 +65,7 @@
     <source-file src="src/ios/CDVAdMobAdsAdListener.m" />
 
     <!-- Google AdMob framework -->
-    <dependency id="com.ios.libgoogleadmobads" url="https://github.com/appfeel/google-iosadmobads"/>
+    <dependency id="com.ios.libgoogleadmobads" url="https://github.com/jomendezdev/google-iosadmobads"/>
     
 
   </platform>

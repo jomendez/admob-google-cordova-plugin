@@ -1,7 +1,7 @@
 /*
  CDVAdMobAds.h
- Copyright 2015 AppFeel. All rights reserved.
- http://www.appfeel.com
+ Copyright 2015 jomendezdev. All rights reserved.
+ http://www.jomendezdev.com
  
  AdMobAds Cordova Plugin (com.admob.google)
  
@@ -34,7 +34,7 @@
 #import <GoogleMobileAds/GADBannerViewDelegate.h>
 #import <GoogleMobileAds/GADInterstitialDelegate.h>
 #import "CDVAdMobAdsAdListener.h"
-#import "AppFeelReachability.h"
+#import "jomendezdevReachability.h"
 
 #pragma mark - JS requestAd options
 

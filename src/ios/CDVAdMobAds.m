@@ -1,7 +1,7 @@
 /*
  CDVAdMobAds.m
- Copyright 2014 AppFeel. All rights reserved.
- http://www.appfeel.com
+ Copyright 2014 jomendezdev. All rights reserved.
+ http://www.jomendezdev.com
  
  AdMobAds Cordova Plugin (com.admob.google)
  
@@ -35,8 +35,8 @@
 @property (assign) BOOL isInterstitialRequested;
 @property (assign) BOOL isNetworkActive;
 
-@property (nonatomic) AppFeelReachability *hostReachability;
-@property (nonatomic) AppFeelReachability *internetReachability;
+@property (nonatomic) jomendezdevReachability *hostReachability;
+@property (nonatomic) jomendezdevReachability *internetReachability;
 
 - (void) __reachabilityChanged:(NSNotification*)aNote;
 - (void) __setOptions:(NSDictionary*) options;
@@ -147,17 +147,17 @@
     
     NSString *remoteHostName = @"www.google.com";
     
-    self.hostReachability = [AppFeelReachability reachabilityWithHostName:remoteHostName];
+    self.hostReachability = [jomendezdevReachability reachabilityWithHostName:remoteHostName];
     [self.hostReachability startNotifier];
     
-    self.internetReachability = [AppFeelReachability reachabilityForInternetConnection];
+    self.internetReachability = [jomendezdevReachability reachabilityForInternetConnection];
     [self.internetReachability startNotifier];
     
     return self;
 }
 
 - (void) __reachabilityChanged:(NSNotification*)aNote {
-    AppFeelReachability *curReach = [aNote object];
+    jomendezdevReachability *curReach = [aNote object];
     NetworkStatus remoteHostStatus = [curReach currentReachabilityStatus];
     
     if (remoteHostStatus == NotReachable) {
